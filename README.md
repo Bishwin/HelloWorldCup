@@ -1,24 +1,12 @@
-# README
+# Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You need Ruby and Rails installed.
 
-Things you may want to cover:
+## Configure Docker for Postgres
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Ensure you have Docker installed. [Linux instructions here.](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
+2. Ensure you have docker-compose installed. [Linux instructions here.](https://docs.docker.com/compose/install/#install-compose)
+3. From the root of this directory run `docker-compose build`.
+4. Once complete run `docker-compose up` (NB: Running `docker-compose up --build` will combine these commands)
+5. Run `rails db:create db:migrate`.
+6. Run `rails s`.
