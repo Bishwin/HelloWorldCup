@@ -83,4 +83,4 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV.fetch("DB_NAME", "helloworldcup_test") %>
+  database: <%= ENV['DATABASE_URL'] %>
