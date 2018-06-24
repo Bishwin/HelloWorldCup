@@ -1,24 +1,34 @@
-# README
+# Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You need Ruby and Rails installed.
 
-Things you may want to cover:
+## Configure Docker for Postgres
 
-* Ruby version
+1. Ensure you have Docker installed. [Linux instructions here.](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
+1. Ensure you have docker-compose installed. [Linux instructions here.](https://docs.docker.com/compose/install/#install-compose)
+1. Navigate to the root of the app.
+1. If you already have Postgres installed locally, prefix **all** of the following steps with `DB_PORT=5433`.
+Your local postgres will be running on port 5432 and will clash with the docker image if we don't use a different port. 
+1. From the root of this directory run `docker-compose up --build` or `DB_PORT=5433 docker-compose up --build`, as per above.
+1. Open a new terminal window or tab.
+1. Run `rails db:create db:migrate` or `DB_PORT=5433 rails db:create db:migrate`.
+1. Run `rails s` or `DB_PORT=5433 rails s`.
+1. Navigate to `/helloworld/` which is a simple GET request that returns a string:
+    ```json
+    "helloworld"
+    ```
+    This is just  to test everything works.
+1. Tear down the server via `Ctrl+C`.
+1. Seed the database with `rails db:seed` or `DB_PORT=5433 rails db:seed`.
 
-* System dependencies
+You now have Postgres populated with the seed data running via docker.
 
-* Configuration
+## Run Postgres via Docker
 
-* Database creation
+1. Navigate to the root of the app.
+1. If you have Postgres installing locally prefix **all** steps with `DB_PORT=5433`.
+1. Run `docker-compose up` or `DB_PORT=5433 docker-compose up`.
+1. Open new terminal window or tab.
+1. Run `rails s` or `DB_PORT=5433 rails s`.
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
