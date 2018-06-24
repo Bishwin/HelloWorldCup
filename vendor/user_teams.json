@@ -1,0 +1,195 @@
+{
+  "users":[
+    {
+      "name": "Nicole",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Poland"
+        },
+        {
+          "id": 1,
+          "name":"Morocco"
+        }
+      ]
+    },
+    {
+      "name": "Phill",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Saudi Arabia"
+        },
+        {
+          "id": 1,
+          "name": "South Korea"
+        }
+      ]
+    },{
+      "name": "Alec",
+      "teams":[
+        {"id": 1,
+          "name":
+        "England"},
+        {"id": 1,
+          "name":"Spain"}
+      ]
+    },{
+      "name": "Tom",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Germany"
+        },
+        {
+          "id": 1,
+          "name": "Belgium"
+        }
+      ]
+    },{
+      "name": "Hemel",
+      "teams":[
+        {
+          "id": 1,
+          "name":"France"
+        },
+        {
+          "id": 1,
+          "name": "Argentina"
+        }
+      ]
+    },{
+      "name": "Stath",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Iran"
+        },
+        {
+          "id": 1,
+          "name": "Costa Rica"
+        }
+      ]
+    },{
+      "name": "Max",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Brazil"
+        },
+        {
+          "id": 1,
+          "name": "Russia"
+        }
+      ]
+    },{
+      "name": "Rose",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Switzerland"
+        },
+        {
+          "id": 1,
+          "name": "Egypt"
+        }
+      ]
+    },{
+      "name": "Mick Forder",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Panama"
+        },
+        {
+          "id": 1,
+          "name": "Australia"
+        }
+      ]
+    },{
+      "name": "Rob",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Peru"
+        },
+        {
+          "id": 1,
+          "name": "Serbia"
+        }
+      ]
+    },{
+      "name": "Shamster",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Croatia"
+        },
+        {
+          "id": 1,
+          "name":"Japan"
+        }
+      ]
+    },{
+      "name": "John",
+      "teams":[
+        {
+        "id": 1,
+        "name":"Iceland"
+        },
+        {
+          "id": 1,
+          "name": "Mexico"
+        }
+      ]
+    },{
+      "name": "Vish",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Senegal"
+        },
+        {
+          "id": 1,
+          "name":"Sweden"
+        }
+      ]
+    },{
+      "name": "Mick Punt",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Tunisia"
+        },
+        {
+          "id": 1,
+          "name": "Denmark"
+        }
+      ]
+    },{
+      "name": "Jacob",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Portugal"
+        },
+        {
+          "id": 1,
+          "name": "Uruguay"
+        }
+      ]
+    },{
+      "name": "Harjeet",
+      "teams":[
+        {
+          "id": 1,
+          "name":"Nigeria"
+        },
+        {
+          "id": 1,
+          "name": "Columbia"
+        }
+      ]
+    }
+  ]
+}
