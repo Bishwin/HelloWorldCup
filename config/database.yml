@@ -24,6 +24,9 @@ default: &default
 development:
   <<: *default
   database: helloworldcup_development
+  username: postgres
+  password: <%= ENV.fetch("HELLOWORLDCUP_DATABASE_PASSWORD", "user") %>
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
