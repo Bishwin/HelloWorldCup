@@ -1,4 +1,7 @@
 class HelloworldController < ApplicationController
-  def get
+
+  def index
+    render json: "Hello Index".to_json
   end
+
 end
