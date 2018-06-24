@@ -5,11 +5,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Poland"
+          "name":"Poland",
+          "flag": "flag-pl"
         },
         {
           "id": 1,
-          "name":"Morocco"
+          "name":"Morocco",
+          "flag": "flag-ma"
         }
       ]
     },
@@ -18,32 +20,41 @@
       "teams":[
         {
           "id": 1,
-          "name":"Saudi Arabia"
+          "name":"Saudi Arabia",
+          "flag": "flag-sa"
         },
         {
           "id": 1,
-          "name": "South Korea"
+          "name": "South Korea",
+          "flag": "flag-kr"
         }
       ]
     },{
       "name": "Alec",
       "teams":[
-        {"id": 1,
-          "name":
-        "England"},
-        {"id": 1,
-          "name":"Spain"}
+        {
+          "id": 1,
+          "name":"England",
+          "flag": "flag-uk"
+        },
+        {
+          "id": 1,
+          "name":"Spain",
+          "flag": "flag-es"
+        }
       ]
     },{
       "name": "Tom",
       "teams":[
         {
           "id": 1,
-          "name":"Germany"
+          "name":"Germany",
+          "flag": "flag-de"
         },
         {
           "id": 1,
-          "name": "Belgium"
+          "name": "Belgium",
+          "flag": "flag-be"
         }
       ]
     },{
@@ -51,11 +62,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"France"
+          "name":"France",
+          "flag": "flag-fr"
         },
         {
           "id": 1,
-          "name": "Argentina"
+          "name": "Argentina",
+          "flag": "flag-ar"
         }
       ]
     },{
@@ -63,11 +76,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Iran"
+          "name":"Iran",
+          "flag": "flag-ir"
         },
         {
           "id": 1,
-          "name": "Costa Rica"
+          "name": "Costa Rica",
+          "flag": "flag-cr"
         }
       ]
     },{
@@ -75,11 +90,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Brazil"
+          "name":"Brazil",
+          "flag": "flag-br"
         },
         {
           "id": 1,
-          "name": "Russia"
+          "name": "Russia",
+          "flag": "flag-ru"
         }
       ]
     },{
@@ -87,11 +104,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Switzerland"
+          "name":"Switzerland",
+          "flag": "flag-ch"
         },
         {
           "id": 1,
-          "name": "Egypt"
+          "name": "Egypt",
+          "flag": "flag-eg"
         }
       ]
     },{
@@ -99,11 +118,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Panama"
+          "name":"Panama",
+          "flag": "flag-pa"
         },
         {
           "id": 1,
-          "name": "Australia"
+          "name": "Australia",
+          "flag": "flag-au"
         }
       ]
     },{
@@ -111,11 +132,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Peru"
+          "name":"Peru",
+          "flag": "flag-pe"
         },
         {
           "id": 1,
-          "name": "Serbia"
+          "name": "Serbia",
+          "flag": "flag-rs"
         }
       ]
     },{
@@ -123,11 +146,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Croatia"
+          "name":"Croatia",
+          "flag": "flag-hr"
         },
         {
           "id": 1,
-          "name":"Japan"
+          "name":"Japan",
+          "flag": "flag-jp"
         }
       ]
     },{
@@ -135,11 +160,13 @@
       "teams":[
         {
         "id": 1,
-        "name":"Iceland"
+        "name":"Iceland",
+          "flag": "flag-is"
         },
         {
           "id": 1,
-          "name": "Mexico"
+          "name": "Mexico",
+          "flag": "flag-mx"
         }
       ]
     },{
@@ -147,11 +174,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Senegal"
+          "name":"Senegal",
+          "flag": "flag-sn"
         },
         {
           "id": 1,
-          "name":"Sweden"
+          "name":"Sweden",
+          "flag": "flag-se"
         }
       ]
     },{
@@ -159,11 +188,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Tunisia"
+          "name":"Tunisia",
+          "flag": "flag-tn"
         },
         {
           "id": 1,
-          "name": "Denmark"
+          "name": "Denmark",
+          "flag": "flag-dk"
         }
       ]
     },{
@@ -171,11 +202,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Portugal"
+          "name":"Portugal",
+          "flag": "flag-pt"
         },
         {
           "id": 1,
-          "name": "Uruguay"
+          "name": "Uruguay",
+          "flag": "flag-uy"
         }
       ]
     },{
@@ -183,11 +216,13 @@
       "teams":[
         {
           "id": 1,
-          "name":"Nigeria"
+          "name":"Nigeria",
+          "flag": "flag-ng"
         },
         {
           "id": 1,
-          "name": "Columbia"
+          "name": "Columbia",
+          "flag": "flag-co"
         }
       ]
     }
