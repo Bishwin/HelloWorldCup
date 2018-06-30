@@ -1,5 +1,4 @@
 class ListingsController < ApplicationController
-  before_action :set_user, only: [:show]
 
   include Response
   include ExceptionHandler
@@ -11,14 +10,17 @@ class ListingsController < ApplicationController
     json_response(submission)
   end
 
-  def show
-    json_response(@user)
+  def create
+    unprocessed_slack_id = request.params[:text]
+    set_user(SlackIdFinder.process_id(unprocessed_slack_id))
+    submission = SlackFormatterService.return_as_slack_json(@user.as_string)
+    json_response(submission)
   end
 
   private
 
-  def set_user
-    @user = User.find(params[:id])
+  def set_user(slack_id)
+    @user = SlackIdFinder.retrieve_user_object(slack_id)
   end
 
 end
