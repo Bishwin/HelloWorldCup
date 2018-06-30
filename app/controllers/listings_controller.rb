@@ -7,7 +7,8 @@ class ListingsController < ApplicationController
   def index
     @users = []
     User.all.each { |user| @users << user.as_string }
-    json_response(@users.join("\n"))
+    submission = SlackFormatterService.return_as_slack_json(@users.join("\n"))
+    json_response(submission)
   end
 
   def show
