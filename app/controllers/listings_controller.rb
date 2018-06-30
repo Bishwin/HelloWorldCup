@@ -5,7 +5,9 @@ class ListingsController < ApplicationController
   include ExceptionHandler
 
   def index
-    @users = User.all
+    @users = []
+    User.all.each { |user| @users << user.as_string }
+    @users.join("\n")
     json_response(@users)
   end
 
