@@ -1,6 +1,7 @@
 [
   {
     "name": "Nicole",
+    "slackid": "U1Y7DF4JJ",
     "teams":[
       {
         "id": 1,
@@ -16,6 +17,7 @@
   },
   {
     "name": "Phill",
+    "slackid": "UA88P4Y86",
     "teams":[
       {
         "id": 1,
@@ -28,9 +30,11 @@
         "flag": "flag-kr"
       }
     ]
-  },{
-    "name": "Alec",
-    "teams":[
+  },
+  {
+  "name": "Alec",
+  "slackid": "U2DJCANGY",
+  "teams":[
       {
         "id": 1,
         "name":"England",
@@ -42,8 +46,10 @@
         "flag": "flag-es"
       }
     ]
-  },{
+  },
+  {
     "name": "Tom",
+    "slackid": "U75FQT2BY",
     "teams":[
       {
         "id": 1,
@@ -56,8 +62,10 @@
         "flag": "flag-be"
       }
     ]
-  },{
+  },
+  {
     "name": "Hemel",
+  "slackid": "U03G3QB2N",
     "teams":[
       {
         "id": 1,
@@ -70,8 +78,10 @@
         "flag": "flag-ar"
       }
     ]
-  },{
+  },
+  {
     "name": "Stath",
+  "slackid": "U8L0Y86J0",
     "teams":[
       {
         "id": 1,
@@ -84,8 +94,10 @@
         "flag": "flag-cr"
       }
     ]
-  },{
+  },
+  {
     "name": "Max",
+  "slackid": "U2HGUMSJ0",
     "teams":[
       {
         "id": 1,
@@ -98,8 +110,10 @@
         "flag": "flag-ru"
       }
     ]
-  },{
+  },
+  {
     "name": "Rose",
+  "slackid": "U8Q6S1A3X",
     "teams":[
       {
         "id": 1,
@@ -112,8 +126,10 @@
         "flag": "flag-eg"
       }
     ]
-  },{
+  },
+  {
     "name": "Mick Forder",
+  "slackid": "U81B078R0",
     "teams":[
       {
         "id": 1,
@@ -126,8 +142,10 @@
         "flag": "flag-au"
       }
     ]
-  },{
+  },
+  {
     "name": "Rob",
+  "slackid": "U4B16JWA0",
     "teams":[
       {
         "id": 1,
@@ -140,8 +158,10 @@
         "flag": "flag-rs"
       }
     ]
-  },{
+  },
+  {
     "name": "Shamster",
+  "slackid": "U03G0C44C",
     "teams":[
       {
         "id": 1,
@@ -154,8 +174,10 @@
         "flag": "flag-jp"
       }
     ]
-  },{
+  },
+  {
     "name": "John",
+  "slackid": "U9TFZ9J74",
     "teams":[
       {
       "id": 1,
@@ -168,8 +190,10 @@
         "flag": "flag-mx"
       }
     ]
-  },{
+  },
+  {
     "name": "Vish",
+  "slackid": "U7MNTT2UQ",
     "teams":[
       {
         "id": 1,
@@ -182,8 +206,10 @@
         "flag": "flag-se"
       }
     ]
-  },{
+  },
+  {
     "name": "Mick Punt",
+  "slackid": "U2JMJR4S0",
     "teams":[
       {
         "id": 1,
@@ -196,8 +222,10 @@
         "flag": "flag-dk"
       }
     ]
-  },{
+  },
+  {
     "name": "Jacob",
+  "slackid": "U3DJENPR8",
     "teams":[
       {
         "id": 1,
@@ -210,8 +238,10 @@
         "flag": "flag-uy"
       }
     ]
-  },{
+  },
+  {
     "name": "Harjeet",
+  "slackid": "U710TSFA7",
     "teams":[
       {
         "id": 1,
