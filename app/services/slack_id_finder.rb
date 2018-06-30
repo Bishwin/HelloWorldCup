@@ -4,6 +4,6 @@ class SlackIdFinder
   end
 
   def self.retrieve_user_object(slack_id)
-    User.find_by(slack_id: slack_id)
+    User.find_by(slackid: slack_id)
   end
 end
