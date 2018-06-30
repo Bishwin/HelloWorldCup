@@ -7,8 +7,7 @@ class ListingsController < ApplicationController
   def index
     @users = []
     User.all.each { |user| @users << user.as_string }
-    @users.join("\n")
-    json_response(@users)
+    json_response(@users.join("\n"))
   end
 
   def show
