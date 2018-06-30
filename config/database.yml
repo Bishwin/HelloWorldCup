@@ -83,4 +83,6 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['DATABASE_URL'] %>
+  host: <%= ENV.fetch("DB_HOST", "localhost") %>
+  database: <%= ENV.fetch("DB_NAME", "helloworldcup_production") %>
+  password: <%= ENV.fetch("DB_PASSWORD", "postgres") %>
